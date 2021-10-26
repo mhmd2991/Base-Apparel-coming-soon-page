@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <main class="container">
         <div class="left">
             <img class="logo" src="images/logo.svg" alt="logo" >
             <img class="bg-img-mobile" src="images/hero-mobile.jpg" alt="hero">
@@ -27,15 +27,15 @@
                     Add your email below to stay up-to-date with announcements and our launch deals.</p>
                 <form id="form">
                     <input type="email" name="txt_email" id="email" placeholder="Email Address" value="">
-                    <img src="images/icon-error.svg" class="error-icon">
-                    <button id="btn"><i class="fas fa-chevron-right"></i></button>
+                    <img src="images/icon-error.svg" class="error-icon" alt="error">
+                    <button id="btn" aria-label="submit"><i class="fas fa-chevron-right"></i></button>
                     <small class="error-msg">Please provide a valid email</small>
                     <small class="success-msg">Valid Email. Thank You</small>
                 </form>
             </div>
         </div>
         <div class="right bg-img"></div>
-    </div>
+    </main>
 </body>
 <script src="js/main.js"></script>
 
